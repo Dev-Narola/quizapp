@@ -137,7 +137,7 @@ class _QuizScreenState extends State<QuizScreen> {
                       horizontal: 14,
                       vertical: 12,
                     ),
-                    height: MediaQuery.of(context).size.height / 12,
+                    height: MediaQuery.of(context).size.height / 11,
                     alignment: Alignment.centerLeft,
                     decoration: BoxDecoration(
                       color: _selectedOptions[_currentQuestionIndex] == index
@@ -145,16 +145,15 @@ class _QuizScreenState extends State<QuizScreen> {
                           : Colors.grey.shade300,
                       borderRadius: BorderRadius.circular(24),
                     ),
-                    child: Expanded(
-                      child: ListTile(
-                        title: Text(
-                          _options[_currentQuestionIndex][index + 1],
-                          style: TextStyle(
-                            color:
-                                _selectedOptions[_currentQuestionIndex] == index
-                                    ? Colors.white
-                                    : Colors.black,
-                          ),
+                    child: Padding(
+                      padding: const EdgeInsets.only(left: 16.0),
+                      child: Text(
+                        _options[_currentQuestionIndex][index + 1],
+                        style: TextStyle(
+                          color:
+                              _selectedOptions[_currentQuestionIndex] == index
+                                  ? Colors.white
+                                  : Colors.black,
                         ),
                       ),
                     ),
