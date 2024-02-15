@@ -13,13 +13,7 @@ class QuizScreen extends StatefulWidget {
 class _QuizScreenState extends State<QuizScreen> {
   int _currentQuestionIndex = 0;
   final List<List<String>> _options = [
-    [
-      "jai swami narayan my name is dev",
-      "Option 1Awfbwkehefbjkhjwebrfwkehfbdiweyvbfwehfbewhyvbfhjwevbrfhdbfsdfkjdsgfkdsbfkhdsbfskdubfsdhvfakuaskgfvkedsua",
-      "Option 1B",
-      "Option 1C",
-      "Option 1D"
-    ],
+    ["Question: 1", "Option 1A", "Option 1B", "Option 1C", "Option 1D"],
     ["Question: 2", "Option 2A", "Option 2B", "Option 2C", "Option 2D"],
     ["Question: 3", "Option 3A", "Option 3B", "Option 3C", "Option 3D"],
     ["Question: 4", "Option 4A", "Option 4B", "Option 4C", "Option 4D"],

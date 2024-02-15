@@ -1,6 +1,8 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flutter/material.dart';
-import 'package:quizapp/start_page.dart';
 import 'package:get/get.dart';
+import 'package:quizapp/start_page.dart';
 
 void main() {
   runApp(const MyApp());

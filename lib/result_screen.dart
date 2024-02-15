@@ -9,7 +9,7 @@ class ResultScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Quiz Result"),
+        title: const Text("Quiz Result"),
       ),
       body: Column(
         children: [

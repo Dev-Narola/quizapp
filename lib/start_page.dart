@@ -1,7 +1,7 @@
 // ignore_for_file: depend_on_referenced_packages
 
 import 'package:flutter/material.dart';
-import 'package:quizapp/quizz_page.dart';
+import 'package:quizapp/front_page.dart';
 import 'package:quizapp/utils/bottom_button.dart';
 import 'package:get/get.dart';
 
@@ -27,7 +27,7 @@ class _StartScreenState extends State<StartScreen> {
                 Image.asset('assets/quizz.jpg'),
                 GestureDetector(
                   onTap: () {
-                    Get.to(() => const QuizScreen());
+                    Get.to(() => const FrontPage());
                   },
                   child: const ButtonContainer(
                     text: "Start",
