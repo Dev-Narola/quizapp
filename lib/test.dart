@@ -1,10 +1,11 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-class ResultScreen extends StatelessWidget {
+class Tests extends StatelessWidget {
   final int totalMarks;
 
-  const ResultScreen({Key? key, required this.totalMarks}) : super(key: key);
+  const Tests({Key? key, required this.totalMarks}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
